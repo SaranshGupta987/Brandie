@@ -5,7 +5,7 @@ export const swaggerSpec = {
     version: "1.0.0",
     description: "API for User Authentication, Posting, and Social Graph (Following)",
   },
-  servers: [{ url: "http://localhost:3000/api" }],
+  servers: [{ url: "https://brandie.onrender.com/api" }],
   components: {
     securitySchemes: {
       bearerAuth: {
@@ -138,4 +138,5 @@ export const swaggerSpec = {
       },
     },
   },
+
 };
